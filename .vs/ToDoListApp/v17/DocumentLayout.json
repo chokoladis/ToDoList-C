@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\C# - projects\\ToDoListApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55AB6EBE-C267-4605-9DC5-A9C9DE6B308D}|ToDoListApp\\ToDoListApp.csproj|e:\\c# - projects\\todolistapp\\todolistapp\\models\\todolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55AB6EBE-C267-4605-9DC5-A9C9DE6B308D}|ToDoListApp\\ToDoListApp.csproj|solutionrelative:todolistapp\\models\\todolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AB6EBE-C267-4605-9DC5-A9C9DE6B308D}|ToDoListApp\\ToDoListApp.csproj|e:\\c# - projects\\todolistapp\\todolistapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55AB6EBE-C267-4605-9DC5-A9C9DE6B308D}|ToDoListApp\\ToDoListApp.csproj|solutionrelative:todolistapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AB6EBE-C267-4605-9DC5-A9C9DE6B308D}|ToDoListApp\\ToDoListApp.csproj|e:\\c# - projects\\todolistapp\\todolistapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{55AB6EBE-C267-4605-9DC5-A9C9DE6B308D}|ToDoListApp\\ToDoListApp.csproj|solutionrelative:todolistapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\C# - projects\\ToDoListApp\\ToDoListApp\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ToDoListApp\\MainWindow.xaml",
+              "ToolTip": "E:\\C# - projects\\ToDoListApp\\ToDoListApp\\MainWindow.xaml",
+              "RelativeToolTip": "ToDoListApp\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-26T10:19:03.469Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ToDoList.cs",
+              "DocumentMoniker": "E:\\C# - projects\\ToDoListApp\\ToDoListApp\\Models\\ToDoList.cs",
+              "RelativeDocumentMoniker": "ToDoListApp\\Models\\ToDoList.cs",
+              "ToolTip": "E:\\C# - projects\\ToDoListApp\\ToDoListApp\\Models\\ToDoList.cs",
+              "RelativeToolTip": "ToDoListApp\\Models\\ToDoList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T10:23:09.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\C# - projects\\ToDoListApp\\ToDoListApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ToDoListApp\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\C# - projects\\ToDoListApp\\ToDoListApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ToDoListApp\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAkwCQAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T10:19:14.786Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

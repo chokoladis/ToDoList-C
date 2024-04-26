@@ -1,0 +1,39 @@
+﻿<Window x:Class="ToDoListApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ToDoListApp"
+        mc:Ignorable="d"
+        Title="ToDoList" Height="450" Width="800" Icon="/icons8-todolist_96.png" FontFamily="Open Sans" FontSize="14" MinWidth="300" MinHeight="200" Foreground="#FF333333" Loaded="Window_Loaded">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <LinearGradientBrush.RelativeTransform>
+                <TransformGroup>
+                    <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                    <SkewTransform CenterX="0.5" CenterY="0.5"/>
+                    <RotateTransform Angle="42.879" CenterX="0.5" CenterY="0.5"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </LinearGradientBrush.RelativeTransform>
+            <GradientStop Color="#FF757575"/>
+            <GradientStop Color="#FF2D2D2D" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Window.Effect>
+        <DropShadowEffect/>
+    </Window.Effect>
+    <Grid Height="50">
+
+        <DataGrid x:Name="List" Margin="0,-136,0,-185" FontSize="16" FontWeight="DemiBold" SelectionChanged="List_SelectionChanged" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Path=CreateDate}" Header="Дата создания" IsReadOnly="True" Width="180"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Path=text}" Header="Описание" Width="*"></DataGridTextColumn>
+                <DataGridCheckBoxColumn Binding="{Binding Path=IsDone}" Header="Готово" Width="80"></DataGridCheckBoxColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+
+
+    </Grid>
+</Window>
